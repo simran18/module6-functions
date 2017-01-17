@@ -66,7 +66,7 @@ As you may have noticed, R comes with a large number of functions that are built
 | --- | --- |  --- |
 | `sum(a,b,...)`  | Calculates the sum of all input values  | `sum(1, 5)` returns `6`|
 | `round(x,digits)` | Rounds the first argument to the given number of digits | `round(3.1415, 3)` returns `3.142` |
-| `toupper(str)`  | Returns the characters in lowercase  | `toupper("hi there")` returns `"HI THERE"` |
+| `toupper(str)`  | Returns the characters in uppercase  | `toupper("hi there")` returns `"HI THERE"` |
 | `paste(a,b,...)` | _Concatenate_ (combine) characters into one value | `paste("hi", "there")` returns `"hi there"` |
 | `nchar(str)` | Counts the number of characters in a string | `nchar("hi there")` returns `8` (space is a character!) |
 | `c(a,b,...)` | _Concatenate_ (combine) multiple items into a _vector_ (see [module-7](https://github.com/info201-w17/module7-vectors)) | `c(1, 2)` returns `1, 2` |
